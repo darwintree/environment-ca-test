@@ -10,7 +10,7 @@ networks:
 
 services:
   ca-zhang.example.com:
-    image: hyperledger/fabric-ca
+    image: hyperledger/fabric-ca:amd64-1.4.1-snapshot-824a28b
     environment:
       - FABRIC_CA_HOME=/etc/hyperledger/fabric-ca-server
       - FABRIC_CA_SERVER_CA_NAME=ca-zhang.example.com
